@@ -2,13 +2,15 @@ import app from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/firebase-firestore'
 
-const config = {
-	apiKey: "AIzaSyAk0794OsQuDuoEdUfF9nUM_zD17lfRXEE",
-	authDomain: "codedamn-socialapp.firebaseapp.com",
-	databaseURL: "https://codedamn-socialapp.firebaseio.com",
-	projectId: "codedamn-socialapp",
-	storageBucket: "codedamn-socialapp.appspot.com",
-	messagingSenderId: "263473733320"
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDQannbbK5Dioc2Qk-PSJsub_90z5mezeo",
+  authDomain: "vice-ar.firebaseapp.com",
+  projectId: "vice-ar",
+  storageBucket: "vice-ar.appspot.com",
+  messagingSenderId: "667785819446",
+  appId: "1:667785819446:web:c41e0fb5c2b17cf2b16f97",
+  measurementId: "G-KHJYCEGNDG"
 }
 
 class Firebase {
